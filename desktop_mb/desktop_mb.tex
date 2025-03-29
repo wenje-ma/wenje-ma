@@ -1,0 +1,15 @@
+\documentclass[border=0pt]{standalone}
+\usepackage{tikz}
+\newcommand{\desktopwidth}{9cm}
+\newcommand{\desktopheight}{20cm}
+\definecolor{logobg}{RGB}{187,206,161}
+\newcommand{\logoscale}{10}
+\begin{document}
+\begin{tikzpicture}
+  \fill[logobg](0,0)rectangle(\desktopwidth,\desktopheight);
+  \node[white,scale=\logoscale]at(\desktopwidth/2,\desktopheight/2){$\sigma_\omega\sigma$};
+\end{tikzpicture}
+\end{document}
+
+% pdflatex -interaction=nonstopmode desktop_mb.tex
+% pdftoppm -png -r 600 -singlefile desktop_mb.pdf desktop_mb
