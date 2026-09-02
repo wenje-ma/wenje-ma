@@ -39,14 +39,6 @@ English | [中文](./README.zh‑CN.md)
 
 </div>
 
-### 🏆 GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=wenje-ma&theme=matrix&column=7&margin-w=15&margin-h=15&no-frame=true&no-bg=true" alt="trophies"/>
-
-</div>
-
 ### 🛠 Tech Stack
 
 <div align="center">
@@ -66,16 +58,7 @@ English | [中文](./README.zh‑CN.md)
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=wenje-ma&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00FFA3&text_color=C9D1D9&icon_color=00C896&include_all_commits=true&count_private=true&rank_icon=percentile&ring_color=00C896" alt="GitHub Stats"/>
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wenje-ma&layout=compact&hide_border=true&bg_color=0D1117&title_color=00FFA3&text_color=C9D1D9&langs_count=8" alt="Top Languages"/>
-
-<br/>
-
 <img height="180" src="https://streak-stats.demolab.com?user=wenje-ma&hide_border=true&background=0D1117&stroke=00C896&ring=00FFA3&fire=00FFA3&currStreakLabel=00FFA3&sideNums=00C896&dates=8B949E&currStreakNum=FFFFFF" alt="Streak Stats"/>
-
-<br/>
-
-<img width="820" src="https://github-readme-activity-graph.vercel.app/graph?username=wenje-ma&bg_color=0D1117&color=00C896&line=00FFA3&point=00C896&hide_border=true&area=true" alt="Contribution Graph"/>
 
 </div>
 
@@ -87,8 +70,7 @@ English | [中文](./README.zh‑CN.md)
   <img src="https://img.shields.io/badge/Email-wenjema6%40gmail.com-00C896?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
 </a>
 
-<!-- WeChat Official Account: replace the href with your QR code image -->
-<a href="#">
+<a href="./WenjeMaths.png">
   <img src="https://img.shields.io/badge/WeChat_%E5%85%AC%E4%BC%97%E5%8F%B7-00A878?style=for-the-badge&logo=wechat&logoColor=white" alt="WeChat"/>
 </a>
 
