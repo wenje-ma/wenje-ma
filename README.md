@@ -11,7 +11,7 @@
 🔬 **Research Interest**: Design of Experiments, space‑filling designs, Bayesian optimization for computer experiments.
 
 💻 Tech Stack:
-`R` `R Markdown` `LaTeX` `Quarto` `Git`
+`R` `Python` `Markdown` `LaTeX` `Git`
 
 ## 📫 Contact
 - Email: **wenjema6@gmail.com**
