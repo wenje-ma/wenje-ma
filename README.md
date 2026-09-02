@@ -10,12 +10,6 @@ English | [中文](./README.zh‑CN.md)
 
 <span style="color:#00C896">✦</span> 发呆 · 看日落 · 数星星 <span style="color:#00C896">✦</span>
 
-<br/>
-
-<img src="https://komarev.com/ghpvc/?username=wenje-ma&label=PROFILE+VIEWS&color=00C896&style=flat-square" alt="profile views" />
-
-</div>
-
 ---
 
 ### 👨‍💻 About Me
@@ -57,40 +51,6 @@ English | [中文](./README.zh‑CN.md)
 
 ---
 
-### 📊 GitHub Stats
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=wenje-ma&show_icons=true&hide_border=true&bg_color=00000000&title_color=00C896&text_color=555555&icon_color=00C896&include_all_commits=true&count_private=true&rank_icon=percentile" alt="GitHub Stats"/>
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wenje-ma&layout=compact&hide_border=true&bg_color=00000000&title_color=00C896&text_color=555555&langs_count=8" alt="Top Languages"/>
-
-<br/>
-
-<img height="170" src="https://streak-stats.demolab.com?user=wenje-ma&hide_border=true&background=00000000&stroke=00C896&ring=00C896&fire=00C896&currStreakLabel=00C896&sideNums=00C896&dates=888888&currStreakNum=555555" alt="Streak Stats"/>
-
-<br/>
-
-<img width="820" src="https://github-readme-activity-graph.vercel.app/graph?username=wenje-ma&bg_color=00000000&color=00C896&line=00C896&point=00C896&hide_border=true&area=true" alt="Contribution Graph"/>
-
-</div>
-
----
-
-### 📌 Featured Project
-
-<div align="center">
-
-<a href="https://github.com/wenje-ma/ED4DSE">
-  <img height="120" src="https://github-readme-stats.vercel.app/api/pin/?username=wenje-ma&repo=ED4DSE&hide_border=true&bg_color=00000000&title_color=00C896&text_color=555555&icon_color=00C896" alt="ED4DSE"/>
-</a>
-
-<p><b>ED4DSE · 数工试验设计</b></p>
-<p>Experimental design notes & code for engineering and data science — 8 chapters covering response surfaces, space-filling designs and Bayesian optimization, built with <code>R</code>, <code>Python</code> (Jupyter) and <code>LaTeX</code>.</p>
-
-</div>
-
----
-
 ### 📫 Let's Connect
 
 <div align="center">
@@ -99,8 +59,7 @@ English | [中文](./README.zh‑CN.md)
   <img src="https://img.shields.io/badge/Email-wenjema6%40gmail.com-00C896?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
 </a>
 
-<!-- WeChat Official Account: replace the href with your QR code image, see https://github.com/wenje-ma/wenje-ma#readme -->
-<a href="#">
+<a href="./WenjeMaths.png">
   <img src="https://img.shields.io/badge/WeChat_%E5%85%AC%E4%BC%97%E5%8F%B7-00A878?style=for-the-badge&logo=wechat&logoColor=white" alt="WeChat"/>
 </a>
 
@@ -108,6 +67,6 @@ English | [中文](./README.zh‑CN.md)
 
 <div align="center">
 
-<sub>© 2026 Wenje Ma · Built with a little ☕ and a lot of 🧪</sub>
+<sub>© Wenje Ma · Built with a little ☕ and a lot of 🧪</sub>
 
 </div>

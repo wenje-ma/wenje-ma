@@ -10,12 +10,6 @@
 
 <span style="color:#00C896">✦</span> 发呆 · 看日落 · 数星星 <span style="color:#00C896">✦</span>
 
-<br/>
-
-<img src="https://komarev.com/ghpvc/?username=wenje-ma&label=%E8%AE%BF%E9%97%AE%E9%87%8F&color=00C896&style=flat-square" alt="profile views" />
-
-</div>
-
 ---
 
 ### 👨‍💻 关于我
@@ -57,40 +51,6 @@
 
 ---
 
-### 📊 GitHub 统计
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=wenje-ma&show_icons=true&hide_border=true&bg_color=00000000&title_color=00C896&text_color=555555&icon_color=00C896&include_all_commits=true&count_private=true&rank_icon=percentile" alt="GitHub Stats"/>
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wenje-ma&layout=compact&hide_border=true&bg_color=00000000&title_color=00C896&text_color=555555&langs_count=8" alt="Top Languages"/>
-
-<br/>
-
-<img height="170" src="https://streak-stats.demolab.com?user=wenje-ma&hide_border=true&background=00000000&stroke=00C896&ring=00C896&fire=00C896&currStreakLabel=00C896&sideNums=00C896&dates=888888&currStreakNum=555555" alt="Streak Stats"/>
-
-<br/>
-
-<img width="820" src="https://github-readme-activity-graph.vercel.app/graph?username=wenje-ma&bg_color=00000000&color=00C896&line=00C896&point=00C896&hide_border=true&area=true" alt="Contribution Graph"/>
-
-</div>
-
----
-
-### 📌 精选项目
-
-<div align="center">
-
-<a href="https://github.com/wenje-ma/ED4DSE">
-  <img height="120" src="https://github-readme-stats.vercel.app/api/pin/?username=wenje-ma&repo=ED4DSE&hide_border=true&bg_color=00000000&title_color=00C896&text_color=555555&icon_color=00C896" alt="ED4DSE"/>
-</a>
-
-<p><b>ED4DSE · 数工试验设计</b></p>
-<p>面向工程与数据科学的试验设计笔记与代码——共 8 章，覆盖响应曲面、空间填充设计与贝叶斯优化，基于 <code>R</code>、<code>Python</code>（Jupyter）与 <code>LaTeX</code> 编写。</p>
-
-</div>
-
----
-
 ### 📫 联系我
 
 <div align="center">
@@ -99,8 +59,7 @@
   <img src="https://img.shields.io/badge/Email-wenjema6%40gmail.com-00C896?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
 </a>
 
-<!-- 微信公众号：请把 href 替换为你的二维码图片链接 -->
-<a href="#">
+<a href="./WenjeMaths.png">
   <img src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1_%E5%85%AC%E4%BC%97%E5%8F%B7-00A878?style=for-the-badge&logo=wechat&logoColor=white" alt="WeChat"/>
 </a>
 
@@ -108,6 +67,6 @@
 
 <div align="center">
 
-<sub>© 2026 马文杰 · 用一点 ☕ 和一堆 🧪 打造</sub>
+<sub>© 马文杰 · 用一点 ☕ 和一堆 🧪 打造</sub>
 
 </div>
