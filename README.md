@@ -1,17 +1,113 @@
 English | [中文](./README.zh‑CN.md)
 
+<div align="center">
+
+<a href="https://github.com/wenje-ma">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3200&pause=1200&color=00C896&center=true&vCenter=true&width=640&height=70&lines=Hi%2C+I%27m+Wenje+Ma+%F0%9F%91%8B;Mathematics+%26+Statistics+%40+BIT;Design+of+Experiments;Daydream+%C2%B7+Sunsets+%C2%B7+Stargazing" alt="Typing SVG" />
+</a>
+
+<br/>
+
+<span style="color:#00C896">✦</span> 发呆 · 看日落 · 数星星 <span style="color:#00C896">✦</span>
+
+<br/>
+
+<img src="https://komarev.com/ghpvc/?username=wenje-ma&label=PROFILE+VIEWS&color=00C896&style=flat-square" alt="profile views" />
+
+</div>
+
 ---
 
-# Hi there 👋 I'm Wenje Ma
+### 👨‍💻 About Me
 
 🎓 Undergraduate student at **Beijing Institute of Technology**
 
-> Qiang‑Base Program | School of Mathematics and Statistics | Teli Academy
+> Qiang-Ji Program in Mathematics & Applied Mathematics · School of Mathematics and Statistics · Teli Academy
 
-🔬 **Research Interest**: Design of Experiments, space‑filling designs, Bayesian optimization for computer experiments.
+🔬 My research lives at the intersection of **statistics** and **computation** — I care about getting the most information out of the fewest experiments:
 
-💻 Tech Stack:
-`R` `Python` `Markdown` `LaTeX` `Git`
+- Design of Experiments (DoE)
+- Space-filling designs for computer experiments
+- Bayesian optimization
 
-## 📫 Contact
-- Email: **wenjema6@gmail.com**
+<div align="center">
+
+<img src="https://img.shields.io/badge/Design_of_Experiments-00C896?style=for-the-badge&logo=target&logoColor=white" alt="DoE"/>
+<img src="https://img.shields.io/badge/Space--filling_Designs-00A878?style=for-the-badge&logo=diagramsdotnet&logoColor=white" alt="space-filling"/>
+<img src="https://img.shields.io/badge/Bayesian_Optimization-00875F?style=for-the-badge&logo=pytorch&logoColor=white" alt="bayesopt"/>
+
+</div>
+
+---
+
+### 🛠 Tech Stack
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/R-00C896?style=flat-square&logo=r&logoColor=white" alt="R"/>
+<img src="https://img.shields.io/badge/Python-00B886?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+<img src="https://img.shields.io/badge/LaTeX-00A878?style=flat-square&logo=latex&logoColor=white" alt="LaTeX"/>
+<img src="https://img.shields.io/badge/Quarto-008F6B?style=flat-square&logo=quarto&logoColor=white" alt="Quarto"/>
+<img src="https://img.shields.io/badge/R_Markdown-00875F?style=flat-square&logo=r&logoColor=white" alt="R Markdown"/>
+<img src="https://img.shields.io/badge/Jupyter-007A55?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter"/>
+<img src="https://img.shields.io/badge/Git-006E4C?style=flat-square&logo=git&logoColor=white" alt="Git"/>
+<img src="https://img.shields.io/badge/Markdown-006147?style=flat-square&logo=markdown&logoColor=white" alt="Markdown"/>
+
+</div>
+
+---
+
+### 📊 GitHub Stats
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=wenje-ma&show_icons=true&hide_border=true&bg_color=00000000&title_color=00C896&text_color=555555&icon_color=00C896&include_all_commits=true&count_private=true&rank_icon=percentile" alt="GitHub Stats"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wenje-ma&layout=compact&hide_border=true&bg_color=00000000&title_color=00C896&text_color=555555&langs_count=8" alt="Top Languages"/>
+
+<br/>
+
+<img height="170" src="https://streak-stats.demolab.com?user=wenje-ma&hide_border=true&background=00000000&stroke=00C896&ring=00C896&fire=00C896&currStreakLabel=00C896&sideNums=00C896&dates=888888&currStreakNum=555555" alt="Streak Stats"/>
+
+<br/>
+
+<img width="820" src="https://github-readme-activity-graph.vercel.app/graph?username=wenje-ma&bg_color=00000000&color=00C896&line=00C896&point=00C896&hide_border=true&area=true" alt="Contribution Graph"/>
+
+</div>
+
+---
+
+### 📌 Featured Project
+
+<div align="center">
+
+<a href="https://github.com/wenje-ma/ED4DSE">
+  <img height="120" src="https://github-readme-stats.vercel.app/api/pin/?username=wenje-ma&repo=ED4DSE&hide_border=true&bg_color=00000000&title_color=00C896&text_color=555555&icon_color=00C896" alt="ED4DSE"/>
+</a>
+
+<p><b>ED4DSE · 数工试验设计</b></p>
+<p>Experimental design notes & code for engineering and data science — 8 chapters covering response surfaces, space-filling designs and Bayesian optimization, built with <code>R</code>, <code>Python</code> (Jupyter) and <code>LaTeX</code>.</p>
+
+</div>
+
+---
+
+### 📫 Let's Connect
+
+<div align="center">
+
+<a href="mailto:wenjema6@gmail.com">
+  <img src="https://img.shields.io/badge/Email-wenjema6%40gmail.com-00C896?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+</a>
+
+<!-- WeChat Official Account: replace the href with your QR code image, see https://github.com/wenje-ma/wenje-ma#readme -->
+<a href="#">
+  <img src="https://img.shields.io/badge/WeChat_%E5%85%AC%E4%BC%97%E5%8F%B7-00A878?style=for-the-badge&logo=wechat&logoColor=white" alt="WeChat"/>
+</a>
+
+</div>
+
+<div align="center">
+
+<sub>© 2026 Wenje Ma · Built with a little ☕ and a lot of 🧪</sub>
+
+</div>
