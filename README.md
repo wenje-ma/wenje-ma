@@ -1,16 +1,17 @@
-## Hi there 👋
+🇬🇧 English | 🇨🇳 [中文 → README.zh‑CN.md](./README.zh‑CN.md)
 
-<!--
-**wenje-ma/wenje-ma** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 
-Here are some ideas to get you started:
+# Hi there 👋 I'm Wenje Ma
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+🎓 Undergraduate student at **Beijing Institute of Technology**
+
+> Qiang‑Base Program | School of Mathematics and Statistics | Teli Academy
+
+🔬 **Research Interest**: Design of Experiments, space‑filling designs, Bayesian optimization for computer experiments.
+
+💻 Tech Stack:
+`R` `R Markdown` `LaTeX` `Quarto` `Git`
+
+## 📫 Contact
+- Email: **wenjema6@gmail.com**
