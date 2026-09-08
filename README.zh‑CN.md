@@ -57,7 +57,7 @@
 
 </div>
 
-全书 11 章全部读完：逐章记忆索引笔记、每章一份可运行代码（Ch01–Ch11.ipynb）、边读边写的两个 R 包（`mined`、`support`）与编译好的 PDF，全部收录在 [wenje-ma/ED4DSE](https://github.com/wenje-ma/ED4DSE)。
+全书 11 章全部读完：逐章记忆索引笔记、每章一份可运行代码（Ch01–Ch11.ipynb）、配套的两个 R 包（`mined`、`support`，来自 CRAN）与编译好的 PDF，全部收录在 [wenje-ma/ED4DSE](https://github.com/wenje-ma/ED4DSE)。
 
 | # | 章节 | 核心内容 |
 |---|---|---|

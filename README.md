@@ -57,7 +57,7 @@ English | [中文](./README.zh‑CN.md)
 
 </div>
 
-Read the whole book cover to cover: 11 chapters of memory-indexed notes, one runnable notebook per chapter (Ch01–Ch11.ipynb), two R packages built along the way (`mined`, `support`), and a compiled PDF — all in [wenje-ma/ED4DSE](https://github.com/wenje-ma/ED4DSE).
+Read the whole book cover to cover: 11 chapters of memory-indexed notes, one runnable notebook per chapter (Ch01–Ch11.ipynb), two companion CRAN packages (`mined`, `support`), and a compiled PDF — all in [wenje-ma/ED4DSE](https://github.com/wenje-ma/ED4DSE).
 
 | # | Chapter | What I took away |
 |---|---|---|
