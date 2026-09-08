@@ -44,6 +44,36 @@ English | [中文](./README.zh‑CN.md)
 
 </div>
 
+### 📚 Learning
+
+<div align="center">
+
+<a href="https://github.com/wenje-ma/ED4DSE">
+  <img src="https://img.shields.io/badge/ED4DSE-00C896?style=for-the-badge&logo=bookstack&logoColor=white" alt="ED4DSE"/>
+  <img src="https://img.shields.io/badge/Status-Completed-00A878?style=for-the-badge&logo=verified&logoColor=white" alt="Completed"/>
+</a>
+
+**Experimental Design for Data Science and Engineering** · *V. Roshan Joseph (Georgia Tech)* · Chapman & Hall/CRC · 2026 · ✅ Finished
+
+</div>
+
+Read the whole book cover to cover: 11 chapters of memory-indexed notes, one runnable notebook per chapter (Ch01–Ch11.ipynb), two R packages built along the way (`mined`, `support`), and a compiled PDF — all in [wenje-ma/ED4DSE](https://github.com/wenje-ma/ED4DSE).
+
+| # | Chapter | What I took away |
+|---|---|---|
+| 1 | Experiments | response surfaces, simulation vs. physical experiments |
+| 2 | Modeling Techniques | Kriging & Gaussian process regression |
+| 3 | Model-based Designs | prediction-based, maximum entropy designs |
+| 4 | Space-filling Designs | MaxPro, minimum energy, LHD |
+| 5 | Representative Points | uniform designs, support points, uncertainty propagation |
+| 6 | Screening Designs | sensitivity analysis, Morris, MOFAT |
+| 7 | Sequential Designs | emulation, Bayesian optimization, inverse designs |
+| 8 | Fractional Factorial Designs | two-level & Bayesian-inspired designs |
+| 9 | Model Calibration | nonlinear optimal designs, robust design |
+| 10 | Data Subsampling | support-point subsampling, data twins |
+| 11 | Data Analysis | factor selection, twin Gaussian processes |
+
+
 ### 🛠 Tech Stack
 
 <div align="center">

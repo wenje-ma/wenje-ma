@@ -44,6 +44,36 @@
 
 </div>
 
+### 📚 学习足迹
+
+<div align="center">
+
+<a href="https://github.com/wenje-ma/ED4DSE">
+  <img src="https://img.shields.io/badge/ED4DSE-00C896?style=for-the-badge&logo=bookstack&logoColor=white" alt="ED4DSE"/>
+  <img src="https://img.shields.io/badge/Status-%E5%B7%B2%E5%AE%8C%E6%88%90-00A878?style=for-the-badge&logo=verified&logoColor=white" alt="已完成"/>
+</a>
+
+**Experimental Design for Data Science and Engineering** · *V. Roshan Joseph（佐治亚理工）* · Chapman & Hall/CRC · 2026 · ✅ 已读完
+
+</div>
+
+全书 11 章全部读完：逐章记忆索引笔记、每章一份可运行代码（Ch01–Ch11.ipynb）、边读边写的两个 R 包（`mined`、`support`）与编译好的 PDF，全部收录在 [wenje-ma/ED4DSE](https://github.com/wenje-ma/ED4DSE)。
+
+| # | 章节 | 核心内容 |
+|---|---|---|
+| 1 | 实验 | 响应曲面、仿真实验与物理实验 |
+| 2 | 建模技术 | 克里金与高斯过程回归 |
+| 3 | 基于模型的设计 | 预测型设计、最大熵设计 |
+| 4 | 空间填充设计 | MaxPro、最小能量设计、拉丁超立方 |
+| 5 | 代表点 | 均匀设计、支撑点、不确定性传播 |
+| 6 | 筛选设计 | 敏感性分析、Morris、MOFAT |
+| 7 | 序贯设计 | 代理建模、贝叶斯优化、逆设计 |
+| 8 | 部分因子设计 | 两水平与贝叶斯启发式设计 |
+| 9 | 模型校准 | 非线性最优设计、稳健设计 |
+| 10 | 数据子采样 | 支撑点子采样、数据孪生 |
+| 11 | 数据分析 | 因子选择、孪生高斯过程 |
+
+
 ### 🛠 技术栈
 
 <div align="center">
