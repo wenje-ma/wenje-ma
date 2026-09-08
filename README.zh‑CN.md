@@ -3,7 +3,7 @@
 <div align="center">
 
 <a href="https://github.com/wenje-ma">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2800&pause=1000&color=00875F&center=true&vCenter=true&width=700&height=90&lines=%3E+Hi%2C+I%27m+Wenje+Ma+%F0%9F%91%8B;%3E+Mathematics+%26+Statistics+%40+BIT;%3E+Design+of+Experiments;%3E+Space-filling+Designs;%3E+Bayesian+Optimization;%3E+Daydream+%C2%B7+Sunsets+%C2%B7+Stargazing" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2800&pause=1000&color=00875F&center=true&vCenter=true&width=800&height=90&lines=%3E+Hi%2C+I%27m+Wenje+Ma+%F0%9F%91%8B;%3E+Mathematics+%26+Statistics+%40+BIT;%3E+Design+of+Experiments;%3E+Space-filling+Designs;%3E+Multi-fidelity+Bayesian+Optimization;%3E+Daydream+%C2%B7+Sunsets+%C2%B7+Stargazing" alt="Typing SVG" />
 </a>
 
 <span style="color:#00875F;font-weight:bold">✦ 发呆 · 看日落 · 数星星 ✦</span>
@@ -21,12 +21,19 @@
 - 🎯 试验设计
 - 🧊 计算机实验空间填充设计
 - 🧠 贝叶斯优化
+- 🔒 约束黑箱优化
+- 🔁 多保真优化（高保真 / 低保真代理）
+- 🧪 高斯过程回归与协同克里金
 
 <div align="center">
 
 <img src="https://img.shields.io/badge/%E8%AF%95%E9%AA%8C%E8%AE%BE%E8%AE%A1-00C896?style=for-the-badge&logo=target&logoColor=white" alt="DoE"/>
 <img src="https://img.shields.io/badge/%E7%A9%BA%E9%97%B4%E5%A1%AB%E5%85%85%E8%AE%BE%E8%AE%A1-00A878?style=for-the-badge&logo=diagramsdotnet&logoColor=white" alt="space-filling"/>
 <img src="https://img.shields.io/badge/%E8%B4%9D%E5%8F%B6%E6%96%AF%E4%BC%98%E5%8C%96-00875F?style=for-the-badge&logo=pytorch&logoColor=white" alt="bayesopt"/>
+<img src="https://img.shields.io/badge/%E5%A4%9A%E4%BF%9D%E7%9C%9F%E4%BC%98%E5%8C%96-008F6B?style=for-the-badge&logo=pytorch&logoColor=white" alt="multifidelity"/>
+<img src="https://img.shields.io/badge/%E7%BA%A6%E6%9D%9F%E9%BB%91%E7%AE%B1%E4%BC%98%E5%8C%96-006E4C?style=for-the-badge&logo=target&logoColor=white" alt="constrained"/>
+
+</div>
 
 <div align="center">
 

@@ -3,10 +3,10 @@ English | [中文](./README.zh‑CN.md)
 <div align="center">
 
 <a href="https://github.com/wenje-ma">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2800&pause=1000&color=00875F&center=true&vCenter=true&width=700&height=90&lines=%3E+Hi%2C+I%27m+Wenje+Ma+%F0%9F%91%8B;%3E+Mathematics+%26+Statistics+%40+BIT;%3E+Design+of+Experiments;%3E+Space-filling+Designs;%3E+Bayesian+Optimization;%3E+Daydream+%C2%B7+Sunsets+%C2%B7+Stargazing" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2800&pause=1000&color=00875F&center=true&vCenter=true&width=800&height=90&lines=%3E+Hi%2C+I%27m+Wenje+Ma+%F0%9F%91%8B;%3E+Mathematics+%26+Statistics+%40+BIT;%3E+Design+of+Experiments;%3E+Space-filling+Designs;%3E+Multi-fidelity+Bayesian+Optimization;%3E+Daydream+%C2%B7+Sunsets+%C2%B7+Stargazing" alt="Typing SVG" />
 </a>
 
-<span style="color:#00875F;font-weight:bold">✦ 发呆 · 看日落 · 数星星 ✦</span>
+<span style="color:#00875F;font-weight:bold">✦ Daydream · Sunsets · Stargazing ✦</span>
 
 </div>
 
@@ -21,12 +21,17 @@ English | [中文](./README.zh‑CN.md)
 - 🎯 Design of Experiments (DoE)
 - 🧊 Space-filling designs for computer experiments
 - 🧠 Bayesian optimization
+- 🔒 Constrained black-box optimization
+- 🔁 Multi-fidelity optimization (high- & low-fidelity surrogates)
+- 🧪 Gaussian process regression & co-kriging
 
 <div align="center">
 
 <img src="https://img.shields.io/badge/Design_of_Experiments-00C896?style=for-the-badge&logo=target&logoColor=white" alt="DoE"/>
 <img src="https://img.shields.io/badge/Space--filling_Designs-00A878?style=for-the-badge&logo=diagramsdotnet&logoColor=white" alt="space-filling"/>
 <img src="https://img.shields.io/badge/Bayesian_Optimization-00875F?style=for-the-badge&logo=pytorch&logoColor=white" alt="bayesopt"/>
+<img src="https://img.shields.io/badge/Multi--fidelity_Optimization-008F6B?style=for-the-badge&logo=pytorch&logoColor=white" alt="multifidelity"/>
+<img src="https://img.shields.io/badge/Constrained_Black--box-006E4C?style=for-the-badge&logo=target&logoColor=white" alt="constrained"/>
 
 </div>
 
