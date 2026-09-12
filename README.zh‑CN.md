@@ -74,6 +74,26 @@
 | 11 | 数据分析 | 因子选择、孪生高斯过程 |
 
 
+
+<div align="center">
+
+<a href="https://github.com/wenje-ma/DACE">
+  <img src="https://img.shields.io/badge/DACE-006E4C?style=for-the-badge&logo=bookstack&logoColor=white" alt="DACE"/>
+  <img src="https://img.shields.io/badge/Status-%E7%B2%BE%E8%AF%BB%E4%B8%AD-00A878?style=for-the-badge&logo=verified&logoColor=white" alt="精读中"/>
+</a>
+
+**The Design and Analysis of Computer Experiments** · *T. J. Santner / B. J. Williams / W. I. Notz* · Springer · 第2版 · 🔬 定向精读中
+
+</div>
+
+为毕设（约束多保真贝叶斯优化）定向精读：**第2章** 高斯过程模型、**第3章** EBLUP 预测推导、**第6章 §6.3.4** Expected Improvement 采集函数。
+
+| 章节 | 阅读目的 |
+|---|---|
+| 第2章 描述模拟器输出的随机过程模型 | GP 模型与相关函数 —— 建模基础 |
+| 第3章 模拟器输出的经验最优线性无偏预测 | 条件后验均值/方差推导 —— 推采集函数必备 |
+| §6.3.4 用于优化的期望改进算法 | EI 采集函数 —— 贝叶斯优化核心 |
+
 ### 🛠 技术栈
 
 <div align="center">

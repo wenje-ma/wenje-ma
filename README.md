@@ -74,6 +74,26 @@ Read the whole book cover to cover: 11 chapters of memory-indexed notes, one run
 | 11 | Data Analysis | factor selection, twin Gaussian processes |
 
 
+
+<div align="center">
+
+<a href="https://github.com/wenje-ma/DACE">
+  <img src="https://img.shields.io/badge/DACE-006E4C?style=for-the-badge&logo=bookstack&logoColor=white" alt="DACE"/>
+  <img src="https://img.shields.io/badge/Status-Selective_Reading-00A878?style=for-the-badge&logo=verified&logoColor=white" alt="Selective Reading"/>
+</a>
+
+**The Design and Analysis of Computer Experiments** · *T. J. Santner, B. J. Williams, W. I. Notz* · Springer · 2nd ed. · 🔬 Reading selected chapters
+
+</div>
+
+Targeted deep-read backing my thesis (constrained multi-fidelity Bayesian optimization): **Ch. 2** Gaussian process models, **Ch. 3** EBLUP prediction, and **§6.3.4** Expected Improvement.
+
+| Chapter | What I'm reading it for |
+|---|---|
+| Ch. 2 · Stochastic Process Models for Simulator Output | GP models & correlation functions — modeling foundation |
+| Ch. 3 · Empirical Best Linear Unbiased Prediction | conditional posterior mean/variance derivation — the skill behind acquisition functions |
+| §6.3.4 · Expected Improvement Algorithms for Optimization | the EI acquisition function — core of Bayesian optimization |
+
 ### 🛠 Tech Stack
 
 <div align="center">
