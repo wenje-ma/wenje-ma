@@ -79,24 +79,23 @@ Read the whole book cover to cover: 11 chapters of memory-indexed notes, one run
 
 <a href="https://github.com/wenje-ma/DACE">
   <img src="https://img.shields.io/badge/DACE-006E4C?style=for-the-badge&logo=bookstack&logoColor=white" alt="DACE"/>
-  <img src="https://img.shields.io/badge/Status-Thesis_Reading-00A878?style=for-the-badge&logo=verified&logoColor=white" alt="Thesis Reading"/>
+  <img src="https://img.shields.io/badge/Status-Core_Reading-00A878?style=for-the-badge&logo=verified&logoColor=white" alt="Core Reading"/>
 </a>
 
-**The Design and Analysis of Computer Experiments** · *T. J. Santner, B. J. Williams, W. I. Notz* · Springer · 2nd ed. · 🔬 Reading everything that backs my thesis
+**The Design and Analysis of Computer Experiments** · *T. J. Santner, B. J. Williams, W. I. Notz* · Springer · 2nd ed. · 🔬 Reading the must-have core
 
 </div>
 
-Thesis-driven deep-read (constrained multi-fidelity BO with active feasibility learning): **Ch. 2** GP models → **Ch. 3** EBLUP → **Ch. 4** Bayesian inference → **Ch. 5** space-filling designs → **Ch. 6** criterion-based designs (EI & constrained optimization) → **Ch. 7** screening → **Ch. 8** calibration (multi-fidelity).
+Reading exactly what my thesis must have — GP posterior derivation, Bayesian inference, and the three pillars of my direction (constrained BO, feasible-boundary learning, multi-fidelity):
 
 | Chapter | What I'm reading it for |
 |---|---|
-| Ch. 2 · Stochastic Process Models | GP models & correlation functions — surrogate foundation |
-| Ch. 3 · EBLUP Prediction | conditional posterior mean/variance derivation — behind acquisition functions |
-| Ch. 4 · Bayesian Inference | the posterior engine of BO |
-| Ch. 5 · Space-Filling Designs | initial design & active-learning sampling |
-| Ch. 6 · Criterion-Based Designs | EI, constrained optimization, contour/feasible-region estimation |
-| Ch. 7 · Sensitivity & Screening | dimension reduction for high-dimensional BO |
-| Ch. 8 · Calibration | KOH model — multi-fidelity modeling |
+| Ch. 2 §2.2 · GP Models | definition & correlation functions — surrogate foundation |
+| Ch. 3 §3.2–3.3 · EBLUP | posterior mean/variance derivation — the core skill |
+| Ch. 4 §4.2 · Conjugate Bayesian Inference | the posterior engine of BO |
+| Ch. 6 §6.3.4–6.3.5 · EI & Constrained Opt | expected improvement + constrained global optimization |
+| Ch. 6 §6.4.2 · Contour Estimation | level-set / feasible-region learning |
+| Ch. 8 §8.2 · KOH Model | multi-fidelity foundation (Co-Kriging) |
 
 ### 🛠 Tech Stack
 

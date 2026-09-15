@@ -79,24 +79,23 @@
 
 <a href="https://github.com/wenje-ma/DACE">
   <img src="https://img.shields.io/badge/DACE-006E4C?style=for-the-badge&logo=bookstack&logoColor=white" alt="DACE"/>
-  <img src="https://img.shields.io/badge/Status-%E6%AF%95%E8%AE%BE%E5%AF%BC%E5%90%91-00A878?style=for-the-badge&logo=verified&logoColor=white" alt="毕设导向"/>
+  <img src="https://img.shields.io/badge/Status-%E6%A0%B8%E5%BF%83%E7%B2%BE%E8%AF%BB-00A878?style=for-the-badge&logo=verified&logoColor=white" alt="核心精读"/>
 </a>
 
-**The Design and Analysis of Computer Experiments** · *T. J. Santner / B. J. Williams / W. I. Notz* · Springer · 第2版 · 🔬 毕设导向通读中
+**The Design and Analysis of Computer Experiments** · *T. J. Santner / B. J. Williams / W. I. Notz* · Springer · 第2版 · 🔬 只读必需核心
 
 </div>
 
-为毕设（约束多保真贝叶斯优化 + 主动学可行边界）通读：**第2章** GP 模型 → **第3章** EBLUP → **第4章** 贝叶斯推断 → **第5章** 空间填充设计 → **第6章** 准则设计（EI 与约束优化）→ **第7章** 变量筛选 → **第8章** 校准（多保真）。
+只读毕设必需的核心——GP 后验推导、贝叶斯推断，以及毕设三要素（约束 BO、可行边界学习、多保真）：
 
 | 章节 | 阅读目的 |
 |---|---|
-| 第2章 随机过程模型 | GP 模型与相关函数 —— 代理模型基础 |
-| 第3章 EBLUP 预测 | 条件后验均值/方差推导 —— 推采集函数的基础 |
-| 第4章 贝叶斯推断 | BO 的后验引擎 |
-| 第5章 空间填充设计 | 初始设计与主动学习采样 |
-| 第6章 准则设计 | EI、约束优化、轮廓/可行域估计 |
-| 第7章 敏感性分析与筛选 | 高维 BO 降维 |
-| 第8章 校准 | KOH 模型 —— 多保真建模 |
+| 第2章 §2.2 GP 模型 | 定义与相关函数 —— 代理模型基础 |
+| 第3章 §3.2–3.3 EBLUP | 条件后验均值/方差推导 —— 核心技能 |
+| 第4章 §4.2 共轭贝叶斯推断 | BO 的后验引擎 |
+| 第6章 §6.3.4–6.3.5 EI 与约束优化 | 期望改进 + 约束全局优化 |
+| 第6章 §6.4.2 轮廓估计 | 水平集 / 可行域学习 |
+| 第8章 §8.2 KOH 模型 | 多保真基础（Co-Kriging 源头） |
 
 ### 🛠 技术栈
 
