@@ -79,20 +79,24 @@
 
 <a href="https://github.com/wenje-ma/DACE">
   <img src="https://img.shields.io/badge/DACE-006E4C?style=for-the-badge&logo=bookstack&logoColor=white" alt="DACE"/>
-  <img src="https://img.shields.io/badge/Status-%E7%B2%BE%E8%AF%BB%E4%B8%AD-00A878?style=for-the-badge&logo=verified&logoColor=white" alt="精读中"/>
+  <img src="https://img.shields.io/badge/Status-%E6%AF%95%E8%AE%BE%E5%AF%BC%E5%90%91-00A878?style=for-the-badge&logo=verified&logoColor=white" alt="毕设导向"/>
 </a>
 
-**The Design and Analysis of Computer Experiments** · *T. J. Santner / B. J. Williams / W. I. Notz* · Springer · 第2版 · 🔬 定向精读中
+**The Design and Analysis of Computer Experiments** · *T. J. Santner / B. J. Williams / W. I. Notz* · Springer · 第2版 · 🔬 毕设导向通读中
 
 </div>
 
-为毕设（约束多保真贝叶斯优化）定向精读：**第2章** 高斯过程模型、**第3章** EBLUP 预测推导、**第6章 §6.3.4** Expected Improvement 采集函数。
+为毕设（约束多保真贝叶斯优化 + 主动学可行边界）通读：**第2章** GP 模型 → **第3章** EBLUP → **第4章** 贝叶斯推断 → **第5章** 空间填充设计 → **第6章** 准则设计（EI 与约束优化）→ **第7章** 变量筛选 → **第8章** 校准（多保真）。
 
 | 章节 | 阅读目的 |
 |---|---|
-| 第2章 描述模拟器输出的随机过程模型 | GP 模型与相关函数 —— 建模基础 |
-| 第3章 模拟器输出的经验最优线性无偏预测 | 条件后验均值/方差推导 —— 推采集函数必备 |
-| §6.3.4 用于优化的期望改进算法 | EI 采集函数 —— 贝叶斯优化核心 |
+| 第2章 随机过程模型 | GP 模型与相关函数 —— 代理模型基础 |
+| 第3章 EBLUP 预测 | 条件后验均值/方差推导 —— 推采集函数的基础 |
+| 第4章 贝叶斯推断 | BO 的后验引擎 |
+| 第5章 空间填充设计 | 初始设计与主动学习采样 |
+| 第6章 准则设计 | EI、约束优化、轮廓/可行域估计 |
+| 第7章 敏感性分析与筛选 | 高维 BO 降维 |
+| 第8章 校准 | KOH 模型 —— 多保真建模 |
 
 ### 🛠 技术栈
 

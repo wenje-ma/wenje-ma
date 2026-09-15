@@ -79,20 +79,24 @@ Read the whole book cover to cover: 11 chapters of memory-indexed notes, one run
 
 <a href="https://github.com/wenje-ma/DACE">
   <img src="https://img.shields.io/badge/DACE-006E4C?style=for-the-badge&logo=bookstack&logoColor=white" alt="DACE"/>
-  <img src="https://img.shields.io/badge/Status-Selective_Reading-00A878?style=for-the-badge&logo=verified&logoColor=white" alt="Selective Reading"/>
+  <img src="https://img.shields.io/badge/Status-Thesis_Reading-00A878?style=for-the-badge&logo=verified&logoColor=white" alt="Thesis Reading"/>
 </a>
 
-**The Design and Analysis of Computer Experiments** · *T. J. Santner, B. J. Williams, W. I. Notz* · Springer · 2nd ed. · 🔬 Reading selected chapters
+**The Design and Analysis of Computer Experiments** · *T. J. Santner, B. J. Williams, W. I. Notz* · Springer · 2nd ed. · 🔬 Reading everything that backs my thesis
 
 </div>
 
-Targeted deep-read backing my thesis (constrained multi-fidelity Bayesian optimization): **Ch. 2** Gaussian process models, **Ch. 3** EBLUP prediction, and **§6.3.4** Expected Improvement.
+Thesis-driven deep-read (constrained multi-fidelity BO with active feasibility learning): **Ch. 2** GP models → **Ch. 3** EBLUP → **Ch. 4** Bayesian inference → **Ch. 5** space-filling designs → **Ch. 6** criterion-based designs (EI & constrained optimization) → **Ch. 7** screening → **Ch. 8** calibration (multi-fidelity).
 
 | Chapter | What I'm reading it for |
 |---|---|
-| Ch. 2 · Stochastic Process Models for Simulator Output | GP models & correlation functions — modeling foundation |
-| Ch. 3 · Empirical Best Linear Unbiased Prediction | conditional posterior mean/variance derivation — the skill behind acquisition functions |
-| §6.3.4 · Expected Improvement Algorithms for Optimization | the EI acquisition function — core of Bayesian optimization |
+| Ch. 2 · Stochastic Process Models | GP models & correlation functions — surrogate foundation |
+| Ch. 3 · EBLUP Prediction | conditional posterior mean/variance derivation — behind acquisition functions |
+| Ch. 4 · Bayesian Inference | the posterior engine of BO |
+| Ch. 5 · Space-Filling Designs | initial design & active-learning sampling |
+| Ch. 6 · Criterion-Based Designs | EI, constrained optimization, contour/feasible-region estimation |
+| Ch. 7 · Sensitivity & Screening | dimension reduction for high-dimensional BO |
+| Ch. 8 · Calibration | KOH model — multi-fidelity modeling |
 
 ### 🛠 Tech Stack
 
