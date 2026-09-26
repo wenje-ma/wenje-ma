@@ -1,5 +1,3 @@
-English | [中文](./README.zh‑CN.md)
-
 <div align="center">
 
 <a href="https://github.com/wenje-ma">
