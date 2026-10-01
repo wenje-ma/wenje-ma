@@ -17,11 +17,12 @@
 🔬 I hunt for **maximum information from minimum experiments** — statistics meets computation:
 
 - 🎯 Design of Experiments (DoE)
-- 🧊 Space-filling designs for computer experiments
+- 🧊 Space-filling designs for computer experiments (MaxPro, maximin, LHD, uniform)
 - 🧠 Bayesian optimization
 - 🔒 Constrained black-box optimization
-- 🔁 Multi-fidelity optimization (high- & low-fidelity surrogates)
-- 🧪 Gaussian process regression & co-kriging
+- 🔁 Multi-fidelity optimization (high- & low-fidelity surrogates, Co-Kriging / KOH)
+- 🧭 Feasible-boundary & level-set learning under expensive constraints
+- 🧪 Gaussian process regression, EBLUP & conjugate Bayesian inference
 
 <div align="center">
 
@@ -42,7 +43,49 @@
 
 </div>
 
-### 📚 Learning
+### 🚀 Research & Featured Projects
+
+<div align="center">
+
+<a href="https://github.com/wenje-ma/singapore">
+  <img src="https://img.shields.io/badge/singapore-00C896?style=for-the-badge&logo=bookstack&logoColor=white" alt="singapore"/>
+  <img src="https://img.shields.io/badge/Status-Research_Project-00A878?style=for-the-badge&logo=verified&logoColor=white" alt="Research Project"/>
+</a>
+
+**Bayesian Optimization Based on Multi-Fidelity Data** · *Wenje Ma, advisor [Dianpeng Wang](https://github.com/wdp708)* · BIT · 2024
+
+</div>
+
+A complete, ablated pipeline for **multi-fidelity Bayesian optimization** — optimizing an expensive black-box when a cheap low-fidelity simulator (systematic bias) and an accurate but costly high-fidelity simulator are both available, under an extremely small budget of **15 high-fidelity equivalents**.
+
+- **Pipeline M1:** `Maximum projection design → Sequential design → Nested design → Expected improvement`, with three control ablations **M0 / S1 / S2** to attribute each component's contribution.
+- **Key findings** (1/2/4/8-D test suite: Joseph 1-D, Branin, additive 4-factor, borehole):
+  - **Fusion (nested design) is the decisive component** — in 1-D it turns failure into feasibility and reaches the global optimum; in 2-D it approaches the Branin optimum; its value decays with dimension and it fails in 8-D (curse of dimensionality inside the multi-fidelity framework).
+  - **Screening never contributes** — the low↔high fidelity bias makes factor-importance ranking unreliable.
+  - Under the same budget, a few high-fidelity points **with** fusion far outperform many high-fidelity points alone.
+- Fully reproducible: R implementation (`maxpro_design.R`, `nested_design.R`, `fit_KOH.R` / `predict_KOH.R`, `EI.R`, `project.R`, calibration & ablation runners), cached `.RData`, SVG/PDF figures, LaTeX report, and bilingual reports (`report_en.md` / `report_cn.md`).
+
+---
+
+<div align="center">
+
+<a href="https://github.com/wenje-ma/graduation">
+  <img src="https://img.shields.io/badge/graduation-008F6B?style=for-the-badge&logo=bookstack&logoColor=white" alt="graduation"/>
+  <img src="https://img.shields.io/badge/Status-Thesis_Preparation-00A878?style=for-the-badge&logo=verified&logoColor=white" alt="Thesis Preparation"/>
+</a>
+
+**Thesis direction: Constrained Multi-fidelity Bayesian Optimization** · feasibility-first sampling & two-stage feasible-region active learning
+
+</div>
+
+My graduation-thesis foundations, where the multi-fidelity story meets **expensive black-box constraints**:
+
+> Constrained multi-fidelity BO — **feasibility-first sampling** plus **two-stage feasible-region active learning**, for cold-start settings where *no* high-fidelity feasible sample exists initially and the feasible region itself shifts across fidelities.
+
+- **`foundations.md`** — the formal problem statement & background: both objective **and** constraints are expensive black-boxes; low-fidelity points deemed feasible may be infeasible at high fidelity (feasible-region shift); goal is a cold-start algorithm that learns the feasible boundary, balances fidelity-sampling cost, and returns a feasible near-optimal high-fidelity solution.
+- **`paraphrasing.md`** — a practical AIGC-detection-deflation guide (perplexity & burstiness, sentence restructuring, "human-trace" rewriting) used while drafting the text.
+
+### 📚 Learning & Reading
 
 <div align="center">
 
@@ -55,7 +98,7 @@
 
 </div>
 
-Read the whole book cover to cover: 11 chapters of memory-indexed notes, one runnable notebook per chapter (Ch01–Ch11.ipynb), two companion CRAN packages (`mined`, `support`), and a compiled PDF — all in [wenje-ma/ED4DSE](https://github.com/wenje-ma/ED4DSE).
+Read the whole book cover to cover. The repo holds **memory-indexed notes**, one set of **runnable R scripts per chapter** (section-level, e.g. `4.1.R`–`4.27.R`), **figures** (PDF + SVG for every worked example), **three companion CRAN packages** (`mined`, `support`, `SFDesign`), and a **compiled `ED4DSE.pdf`** — all in [wenje-ma/ED4DSE](https://github.com/wenje-ma/ED4DSE).
 
 | # | Chapter | What I took away |
 |---|---|---|
@@ -71,7 +114,7 @@ Read the whole book cover to cover: 11 chapters of memory-indexed notes, one run
 | 10 | Data Subsampling | support-point subsampling, data twins |
 | 11 | Data Analysis | factor selection, twin Gaussian processes |
 
-
+---
 
 <div align="center">
 
@@ -84,7 +127,7 @@ Read the whole book cover to cover: 11 chapters of memory-indexed notes, one run
 
 </div>
 
-Reading exactly what my thesis must have — GP posterior derivation, Bayesian inference, and the three pillars of my direction (constrained BO, feasible-boundary learning, multi-fidelity):
+Reading exactly what my thesis must have — GP posterior derivation, Bayesian inference, and the three pillars of my direction (constrained BO, feasible-boundary learning, multi-fidelity). Current notes (in `notes.md`, compiled to `DACE.pdf`) cover the GP foundation:
 
 | Chapter | What I'm reading it for |
 |---|---|
@@ -95,13 +138,42 @@ Reading exactly what my thesis must have — GP posterior derivation, Bayesian i
 | Ch. 6 §6.4.2 · Contour Estimation | level-set / feasible-region learning |
 | Ch. 8 §8.2 · KOH Model | multi-fidelity foundation (Co-Kriging) |
 
+---
+
+### 🧰 Utilities & Tools
+
+<div align="center">
+
+<a href="https://github.com/wenje-ma/codes">
+  <img src="https://img.shields.io/badge/codes-008F6B?style=for-the-badge&logo=python&logoColor=white" alt="codes"/>
+  <img src="https://img.shields.io/badge/Python_3-00875F?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+</a>
+
+**Markdown & PDF utility scripts** · Python 3 + `tkinter` file dialogs
+
+</div>
+
+A small collection of daily-life scripts for processing Markdown and PDF files (each opens a native dialog to pick files or a whole folder, and recursively processes matches):
+
+| Script | What it does |
+|---|---|
+| `leftright.py` | auto-adds `\left`/`\right` to bare brackets/braces/pipes in `$…$` math |
+| `md_merge.py` | concatenates selected Markdown files into one `document.md` |
+| `pdf_OCR.py` | OCRs scanned PDFs into a searchable text layer (`_ocr.pdf`) |
+| `pdf_to_svg.py` | converts every PDF page to SVG via `pdf2svg` |
+| `pdf_to_txt.py` | extracts text from PDF pages into sibling `.txt` files |
+| `md_to_pdf.exe` | bundled Markdown→PDF converter |
+
 ### 🛠 Tech Stack
 
 <div align="center">
 
 <img src="https://img.shields.io/badge/R-00C896?style=for-the-badge&logo=r&logoColor=white" alt="R"/>
+<img src="https://img.shields.io/badge/Rcpp-00A878?style=for-the-badge&logo=r&logoColor=white" alt="Rcpp"/>
 <img src="https://img.shields.io/badge/Python-00875F?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+<img src="https://img.shields.io/badge/Tkinter-007A55?style=for-the-badge&logo=python&logoColor=white" alt="Tkinter"/>
 <img src="https://img.shields.io/badge/LaTeX-00A878?style=for-the-badge&logo=latex&logoColor=white" alt="LaTeX"/>
+<img src="https://img.shields.io/badge/Beamer_(Metropolis)-008F6B?style=for-the-badge&logo=latex&logoColor=white" alt="Beamer"/>
 <img src="https://img.shields.io/badge/Quarto-008F6B?style=for-the-badge&logo=quarto&logoColor=white" alt="Quarto"/>
 <img src="https://img.shields.io/badge/R_Markdown-00875F?style=for-the-badge&logo=r&logoColor=white" alt="R Markdown"/>
 <img src="https://img.shields.io/badge/Jupyter-007A55?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter"/>
@@ -110,13 +182,7 @@ Reading exactly what my thesis must have — GP posterior derivation, Bayesian i
 
 </div>
 
-### 📊 GitHub Stats
-
-<div align="center">
-
-<img height="180" src="https://streak-stats.demolab.com?user=wenje-ma&hide_border=true&background=0D1117&stroke=00C896&ring=00FFA3&fire=00FFA3&currStreakLabel=00FFA3&sideNums=00C896&dates=8B949E&currStreakNum=FFFFFF" alt="Streak Stats"/>
-
-</div>
+<sub>R is my research language (designs, GP/KOH surrogates, BO pipelines, with `Rcpp` C++ where speed matters); Python covers scripting & utilities; LaTeX/Beamer/Markdown handle all notes and talks — including a personal copy of the **Metropolis** Beamer theme (see [wenje-ma/mtheme](https://github.com/wenje-ma/mtheme)).</sub>
 
 ### 📫 Let's Connect
 
