@@ -67,24 +67,6 @@ A complete, ablated pipeline for **multi-fidelity Bayesian optimization** — op
 
 ---
 
-<div align="center">
-
-<a href="https://github.com/wenje-ma/graduation">
-  <img src="https://img.shields.io/badge/graduation-008F6B?style=for-the-badge&logo=bookstack&logoColor=white" alt="graduation"/>
-  <img src="https://img.shields.io/badge/Status-Thesis_Preparation-00A878?style=for-the-badge&logo=verified&logoColor=white" alt="Thesis Preparation"/>
-</a>
-
-**Thesis direction: Constrained Multi-fidelity Bayesian Optimization** · feasibility-first sampling & two-stage feasible-region active learning
-
-</div>
-
-My graduation-thesis foundations, where the multi-fidelity story meets **expensive black-box constraints**:
-
-> Constrained multi-fidelity BO — **feasibility-first sampling** plus **two-stage feasible-region active learning**, for cold-start settings where *no* high-fidelity feasible sample exists initially and the feasible region itself shifts across fidelities.
-
-- **`foundations.md`** — the formal problem statement & background: both objective **and** constraints are expensive black-boxes; low-fidelity points deemed feasible may be infeasible at high fidelity (feasible-region shift); goal is a cold-start algorithm that learns the feasible boundary, balances fidelity-sampling cost, and returns a feasible near-optimal high-fidelity solution.
-- **`paraphrasing.md`** — a practical AIGC-detection-deflation guide (perplexity & burstiness, sentence restructuring, "human-trace" rewriting) used while drafting the text.
-
 ### 📚 Learning & Reading
 
 <div align="center">
@@ -133,10 +115,7 @@ Reading exactly what my thesis must have — GP posterior derivation, Bayesian i
 |---|---|
 | Ch. 2 §2.2 · GP Models | definition & correlation functions — surrogate foundation |
 | Ch. 3 §3.2–3.3 · EBLUP | posterior mean/variance derivation — the core skill |
-| Ch. 4 §4.2 · Conjugate Bayesian Inference | the posterior engine of BO |
-| Ch. 6 §6.3.4–6.3.5 · EI & Constrained Opt | expected improvement + constrained global optimization |
-| Ch. 6 §6.4.2 · Contour Estimation | level-set / feasible-region learning |
-| Ch. 8 §8.2 · KOH Model | multi-fidelity foundation (Co-Kriging) |
+| Ch. 6 §6.3.4 · EI | expected improvement |
 
 ---
 
