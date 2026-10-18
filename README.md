@@ -1,184 +1,100 @@
-<div align="center">
+<h1 align="center">Hi, I'm Wenje Ma 👋</h1>
 
-<a href="https://github.com/wenje-ma">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2800&pause=1000&color=00875F&center=true&vCenter=true&width=800&height=90&lines=%3E+Hi%2C+I%27m+Wenje+Ma+%F0%9F%91%8B;%3E+Mathematics+%26+Statistics+%40+BIT;%3E+Design+of+Experiments;%3E+Space-filling+Designs;%3E+Multi-fidelity+Bayesian+Optimization;%3E+Daydream+%C2%B7+Sunsets+%C2%B7+Stargazing" alt="Typing SVG" />
-</a>
+<p align="center">
+  <i>✦ Daydream · Sunsets · Stargazing ✦</i>
+</p>
 
-<span style="color:#00875F;font-weight:bold">✦ Daydream · Sunsets · Stargazing ✦</span>
+## ⚡ About Me
 
-</div>
+- 🎓 Undergraduate at **Beijing Institute of Technology (BIT)** — School of Mathematics and Statistics & Teli Academy, **Mathematics and Applied Mathematics, Qiang-Ji (Strong Foundation) Program**
+- 🔍 I hunt for **maximum information from minimum experiments** — statistics meets computation
 
-### ⚡ About Me
-
-🎓 Undergraduate at **Beijing Institute of Technology**
-
-> Qiang-Ji Program in Mathematics & Applied Mathematics · School of Mathematics and Statistics · Teli Academy
-
-🔬 I hunt for **maximum information from minimum experiments** — statistics meets computation:
+**Research interests**
 
 - 🎯 Design of Experiments (DoE)
-- 🧊 Space-filling designs for computer experiments (MaxPro, maximin, LHD, uniform)
+- 🧊 Space-filling designs for computer experiments (MaxPro, maximin, LHD, uniform designs)
 - 🧠 Bayesian optimization
 - 🔒 Constrained black-box optimization
-- 🔁 Multi-fidelity optimization (high- & low-fidelity surrogates, Co-Kriging / KOH)
-- 🧭 Feasible-boundary & level-set learning under expensive constraints
-- 🧪 Gaussian process regression, EBLUP & conjugate Bayesian inference
+- 🔁 Multi-fidelity optimization (low/high-fidelity surrogates, Co-Kriging / KOH)
+- 🧭 Feasible-region boundary & level-set learning under expensive constraints
+- 🧪 Gaussian process regression, EBLUP, and conjugate Bayesian inference
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Design_of_Experiments-00C896?style=for-the-badge&logo=target&logoColor=white" alt="DoE"/>
-<img src="https://img.shields.io/badge/Space--filling_Designs-00A878?style=for-the-badge&logo=diagramsdotnet&logoColor=white" alt="space-filling"/>
-<img src="https://img.shields.io/badge/Bayesian_Optimization-00875F?style=for-the-badge&logo=pytorch&logoColor=white" alt="bayesopt"/>
-<img src="https://img.shields.io/badge/Multi--fidelity_Optimization-008F6B?style=for-the-badge&logo=pytorch&logoColor=white" alt="multifidelity"/>
-<img src="https://img.shields.io/badge/Constrained_Black--box-006E4C?style=for-the-badge&logo=target&logoColor=white" alt="constrained"/>
+![](https://img.shields.io/badge/Design_of_Experiments-006E4C?style=flat-square) ![](https://img.shields.io/badge/Space_filling_Designs-00875F?style=flat-square) ![](https://img.shields.io/badge/Bayesian_Optimization-00A86B?style=flat-square) ![](https://img.shields.io/badge/Multi_fidelity_Optimization-00C896?style=flat-square) ![](https://img.shields.io/badge/Constrained_Black_box-00E5A0?style=flat-square)
 
 </div>
 
-<div align="center">
+## 🚀 Featured Projects
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wenje-ma/wenje-ma/output/github-contribution-grid-snake-dark.svg" />
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/wenje-ma/wenje-ma/output/github-contribution-grid-snake.svg" />
-</picture>
+### [singapore](https://github.com/wenje-ma/singapore) — Multi-Fidelity Bayesian Optimization `Research Project`
 
-</div>
+*Bayesian Optimization Based on Multi-Fidelity Data* (advisor: Dianpeng Wang, BIT, 2024). An ablatable R pipeline — MaxPro design → sequential design → nested (multi-fidelity) design → expected improvement — optimizing expensive black boxes under a **15-evaluation high-fidelity-equivalent budget**, with KOH fusion and M0/S1/S2 ablation controls. Key finding: **fusion is the decisive component**; screening never helped; a few fused high-fidelity points beat many unfused ones.
 
-### 🚀 Research & Featured Projects
+### [ed4dse](https://github.com/wenje-ma/ed4dse) — *Experimental Design for Data Science and Engineering* `Completed ✅`
 
-<div align="center">
+A complete computational reproduction of **V. Roshan Joseph's** textbook (Chapman & Hall/CRC, 2026): **79 runnable R scripts** covering all 11 chapters (kriging, space-filling designs, support points, screening, sequential design, calibration, data subsampling), every figure in PDF + SVG, cached results, and three locally maintained companion packages (**SFDesign**, **mined**, **support**).
 
-<a href="https://github.com/wenje-ma/singapore">
-  <img src="https://img.shields.io/badge/singapore-00C896?style=for-the-badge&logo=bookstack&logoColor=white" alt="singapore"/>
-  <img src="https://img.shields.io/badge/Status-Research_Project-00A878?style=for-the-badge&logo=verified&logoColor=white" alt="Research Project"/>
-</a>
+### [dace](https://github.com/wenje-ma/dace) — *The Design and Analysis of Computer Experiments* `Core Reading 🔬`
 
-**Bayesian Optimization Based on Multi-Fidelity Data** · *Wenje Ma, advisor [Dianpeng Wang](https://github.com/wdp708)* · BIT · 2024
+Close-reading notes with full derivations for **Santner–Williams–Notz** (Springer, 2nd ed.): GP models (§2.2), BLUP/EBLUP (§3.2–3.3), and expected improvement (§6.3.4) — exactly the theory my thesis needs.
 
-</div>
+## 📚 All Public Repositories
 
-A complete, ablated pipeline for **multi-fidelity Bayesian optimization** — optimizing an expensive black-box when a cheap low-fidelity simulator (systematic bias) and an accurate but costly high-fidelity simulator are both available, under an extremely small budget of **15 high-fidelity equivalents**.
+### University course notes — pure mathematics
 
-- **Pipeline M1:** `Maximum projection design → Sequential design → Nested design → Expected improvement`, with three control ablations **M0 / S1 / S2** to attribute each component's contribution.
-- **Key findings** (1/2/4/8-D test suite: Joseph 1-D, Branin, additive 4-factor, borehole):
-  - **Fusion (nested design) is the decisive component** — in 1-D it turns failure into feasibility and reaches the global optimum; in 2-D it approaches the Branin optimum; its value decays with dimension and it fails in 8-D (curse of dimensionality inside the multi-fidelity framework).
-  - **Screening never contributes** — the low↔high fidelity bias makes factor-importance ranking unreliable.
-  - Under the same budget, a few high-fidelity points **with** fusion far outperform many high-fidelity points alone.
-- Fully reproducible: R implementation (`maxpro_design.R`, `nested_design.R`, `fit_KOH.R` / `predict_KOH.R`, `EI.R`, `project.R`, calibration & ablation runners), cached `.RData`, SVG/PDF figures, LaTeX report, and bilingual reports (`report_en.md` / `report_cn.md`).
+Bilingual (Chinese/English) lecture notes with fully worked weekly homework, written in Markdown + LaTeX. All follow the same format: a single `notes.md` of bold-tagged definitions/theorems, plus `homework/weekN.md` with problems and complete solutions.
 
----
-
-### 📚 Learning & Reading
-
-<div align="center">
-
-<a href="https://github.com/wenje-ma/ED4DSE">
-  <img src="https://img.shields.io/badge/ED4DSE-00C896?style=for-the-badge&logo=bookstack&logoColor=white" alt="ED4DSE"/>
-  <img src="https://img.shields.io/badge/Status-Completed-00A878?style=for-the-badge&logo=verified&logoColor=white" alt="Completed"/>
-</a>
-
-**Experimental Design for Data Science and Engineering** · *V. Roshan Joseph (Georgia Tech)* · Chapman & Hall/CRC · 2026 · ✅ Finished
-
-</div>
-
-Read the whole book cover to cover. The repo holds **memory-indexed notes**, one set of **runnable R scripts per chapter** (section-level, e.g. `4.1.R`–`4.27.R`), **figures** (PDF + SVG for every worked example), **three companion CRAN packages** (`mined`, `support`, `SFDesign`), and a **compiled `ED4DSE.pdf`** — all in [wenje-ma/ED4DSE](https://github.com/wenje-ma/ED4DSE).
-
-| # | Chapter | What I took away |
+| Repository | Subject | Scale |
 |---|---|---|
-| 1 | Experiments | response surfaces, simulation vs. physical experiments |
-| 2 | Modeling Techniques | Kriging & Gaussian process regression |
-| 3 | Model-based Designs | prediction-based, maximum entropy designs |
-| 4 | Space-filling Designs | MaxPro, minimum energy, LHD |
-| 5 | Representative Points | uniform designs, support points, uncertainty propagation |
-| 6 | Screening Designs | sensitivity analysis, Morris, MOFAT |
-| 7 | Sequential Designs | emulation, Bayesian optimization, inverse designs |
-| 8 | Fractional Factorial Designs | two-level & Bayesian-inspired designs |
-| 9 | Model Calibration | nonlinear optimal designs, robust design |
-| 10 | Data Subsampling | support-point subsampling, data twins |
-| 11 | Data Analysis | factor selection, twin Gaussian processes |
+| [mathematical-analysis](https://github.com/wenje-ma/mathematical-analysis) | Mathematical analysis (real numbers → Fourier series) | 55 sections · 36 weeks |
+| [advenced-algebra](https://github.com/wenje-ma/advenced-algebra) | Advanced (linear) algebra, following Qiu Weisheng | 8 chapters · 42 weeks |
+| [abstract-algebra](https://github.com/wenje-ma/abstract-algebra) | Abstract algebra, following Deng & Zhu | 10 chapters · 26 weeks |
+| [complex-analysis](https://github.com/wenje-ma/complex-analysis) | Complex analysis (Cauchy → Picard) | 22 sections · 25 weeks |
+| [real-analysis](https://github.com/wenje-ma/real-analysis) | Measure theory, following Zhang Xicheng & Folland | 11 chapters · 12 weeks |
+| [topology](https://github.com/wenje-ma/topology) | Point-set topology, following McMullen (Harvard 131) | §2–§7, §11 · 22 weeks |
+| [ordinary-differential-equations](https://github.com/wenje-ma/ordinary-differential-equations) | ODEs, textbook-numbered sections | 30 sections · 30 weeks |
+| [differential-geometry](https://github.com/wenje-ma/differential-geometry) | Differential geometry | notes + readings |
+| [functional-analysis](https://github.com/wenje-ma/functional-analysis) | Functional analysis | reading notes |
+| [partial-differential-equations](https://github.com/wenje-ma/partial-differential-equations) | Partial differential equations | notes + readings |
+
+### University course notes — statistics & computing
+
+| Repository | Subject | Scale |
+|---|---|---|
+| [probability](https://github.com/wenje-ma/probability) | Measure-theoretic probability, following Durrett | 10 chapters · 14 weeks |
+| [mathematical-statistics](https://github.com/wenje-ma/mathematical-statistics) | Estimation & hypothesis testing (BIT textbook) | 8 chapters · 18 weeks |
+| [numerical-calculation-methods](https://github.com/wenje-ma/numerical-calculation-methods) | Numerical analysis (direct/iterative methods, interpolation, quadrature) | 8 chapters · 8 weeks |
+
+### K-12 mathematics — the full PEP curriculum
+
+Every week of China's People's Education Press mathematics curriculum, formalized into definition-first notes + fully solved exercises, with R-generated SVG/PDF figures and complete English translations.
+
+| Repository | Curriculum | Scale |
+|---|---|---|
+| [primary-mathematics](https://github.com/wenje-ma/primary-mathematics) | Elementary, grades 1–6 (12 volumes) | 105 weeks · 22 figures |
+| [junior-mathematics](https://github.com/wenje-ma/junior-mathematics) | Junior-high, grades 7–9 (6 volumes) | 175 weeks · 205 figures |
+| [senior-mathematics](https://github.com/wenje-ma/senior-mathematics) | Senior-high, PEP A 2019 (5 volumes) | 95 weeks · 340 figures |
+
+### Tools & misc
+
+| Repository | What it is |
+|---|---|
+| [codes](https://github.com/wenje-ma/codes) | Tkinter-driven Python utilities for Markdown/PDF: `\left\right` fixing, merging, OCR, PDF splitting, text extraction, md→pdf |
+| [metropolis](https://github.com/wenje-ma/metropolis) | My customized fork of the Metropolis Beamer theme — Quarto demo + CJK support |
+| [wenjemaths](https://github.com/wenje-ma/wenjemaths) | One-page LaTeX math cards (Green vs. Stokes' theorem) |
+| [speed-run](https://github.com/wenje-ma/speed-run) | 「一命速通」— a minimal cover image |
+
+## 🛠 Tech Stack
+
+<div align="center">
+
+![](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white) ![](https://img.shields.io/badge/Rcpp-00427D?style=flat-square&logo=cplusplus&logoColor=white) ![](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![](https://img.shields.io/badge/Tkinter-FFD43B?style=flat-square&logo=python&logoColor=black) ![](https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white) ![](https://img.shields.io/badge/Quarto-E44D3C?style=flat-square) ![](https://img.shields.io/badge/R_Markdown-75AADB?style=flat-square&logo=rstudioide&logoColor=white) ![](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white) ![](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white)
+
+</div>
+
+R is my research language (designs, GP/KOH surrogates, BO pipelines, with Rcpp C++ where performance matters); Python handles scripting and tooling; LaTeX/Beamer/Markdown carries all the notes and decks.
 
 ---
 
-<div align="center">
-
-<a href="https://github.com/wenje-ma/DACE">
-  <img src="https://img.shields.io/badge/DACE-006E4C?style=for-the-badge&logo=bookstack&logoColor=white" alt="DACE"/>
-  <img src="https://img.shields.io/badge/Status-Core_Reading-00A878?style=for-the-badge&logo=verified&logoColor=white" alt="Core Reading"/>
-</a>
-
-**The Design and Analysis of Computer Experiments** · *T. J. Santner, B. J. Williams, W. I. Notz* · Springer · 2nd ed. · 🔬 Reading the must-have core
-
-</div>
-
-Reading exactly what my thesis must have — GP posterior derivation, Bayesian inference, and the three pillars of my direction (constrained BO, feasible-boundary learning, multi-fidelity). Current notes (in `notes.md`, compiled to `DACE.pdf`) cover the GP foundation:
-
-| Chapter | What I'm reading it for |
-|---|---|
-| Ch. 2 §2.2 · GP Models | definition & correlation functions — surrogate foundation |
-| Ch. 3 §3.2–3.3 · EBLUP | posterior mean/variance derivation — the core skill |
-| Ch. 6 §6.3.4 · EI | expected improvement |
-
----
-
-### 🧰 Utilities & Tools
-
-<div align="center">
-
-<a href="https://github.com/wenje-ma/codes">
-  <img src="https://img.shields.io/badge/codes-008F6B?style=for-the-badge&logo=python&logoColor=white" alt="codes"/>
-  <img src="https://img.shields.io/badge/Python_3-00875F?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-</a>
-
-**Markdown & PDF utility scripts** · Python 3 + `tkinter` file dialogs
-
-</div>
-
-A small collection of daily-life scripts for processing Markdown and PDF files (each opens a native dialog to pick files or a whole folder, and recursively processes matches):
-
-| Script | What it does |
-|---|---|
-| `leftright.py` | auto-adds `\left`/`\right` to bare brackets/braces/pipes in `$…$` math |
-| `md_merge.py` | concatenates selected Markdown files into one `document.md` |
-| `pdf_OCR.py` | OCRs scanned PDFs into a searchable text layer (`_ocr.pdf`) |
-| `pdf_to_svg.py` | converts every PDF page to SVG via `pdf2svg` |
-| `pdf_to_txt.py` | extracts text from PDF pages into sibling `.txt` files |
-| `md_to_pdf.exe` | bundled Markdown→PDF converter |
-
-### 🛠 Tech Stack
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/R-00C896?style=for-the-badge&logo=r&logoColor=white" alt="R"/>
-<img src="https://img.shields.io/badge/Rcpp-00A878?style=for-the-badge&logo=r&logoColor=white" alt="Rcpp"/>
-<img src="https://img.shields.io/badge/Python-00875F?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-<img src="https://img.shields.io/badge/Tkinter-007A55?style=for-the-badge&logo=python&logoColor=white" alt="Tkinter"/>
-<img src="https://img.shields.io/badge/LaTeX-00A878?style=for-the-badge&logo=latex&logoColor=white" alt="LaTeX"/>
-<img src="https://img.shields.io/badge/Beamer_(Metropolis)-008F6B?style=for-the-badge&logo=latex&logoColor=white" alt="Beamer"/>
-<img src="https://img.shields.io/badge/Quarto-008F6B?style=for-the-badge&logo=quarto&logoColor=white" alt="Quarto"/>
-<img src="https://img.shields.io/badge/R_Markdown-00875F?style=for-the-badge&logo=r&logoColor=white" alt="R Markdown"/>
-<img src="https://img.shields.io/badge/Jupyter-007A55?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter"/>
-<img src="https://img.shields.io/badge/Git-006E4C?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-<img src="https://img.shields.io/badge/Markdown-00875F?style=for-the-badge&logo=markdown&logoColor=white" alt="Markdown"/>
-
-</div>
-
-<sub>R is my research language (designs, GP/KOH surrogates, BO pipelines, with `Rcpp` C++ where speed matters); Python covers scripting & utilities; LaTeX/Beamer/Markdown handle all notes and talks — including a personal copy of the **Metropolis** Beamer theme (see [wenje-ma/mtheme](https://github.com/wenje-ma/mtheme)).</sub>
-
-### 📫 Let's Connect
-
-<div align="center">
-
-<a href="mailto:wenjema6@gmail.com">
-  <img src="https://img.shields.io/badge/Email-wenjema6%40gmail.com-00C896?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-</a>
-
-<a href="./WenjeMaths.png">
-  <img src="https://img.shields.io/badge/WeChat_%E5%85%AC%E4%BC%97%E5%8F%B7-00A878?style=for-the-badge&logo=wechat&logoColor=white" alt="WeChat"/>
-</a>
-
-</div>
-
-<div align="center">
-
-<sub>© 2026 Wenje Ma · Built with a little ☕ and a lot of 🧪</sub>
-
-</div>
+<p align="center"><sub>© 2026 Wenje Ma · Built with a little ☕ and a lot of 🧪</sub></p>
