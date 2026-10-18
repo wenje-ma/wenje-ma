@@ -82,8 +82,6 @@ Every week of China's People's Education Press mathematics curriculum, formalize
 |---|---|
 | [codes](https://github.com/wenje-ma/codes) | Tkinter-driven Python utilities for Markdown/PDF: `\left\right` fixing, merging, OCR, PDF splitting, text extraction, md→pdf |
 | [metropolis](https://github.com/wenje-ma/metropolis) | My customized fork of the Metropolis Beamer theme — Quarto demo + CJK support |
-| [wenjemaths](https://github.com/wenje-ma/wenjemaths) | One-page LaTeX math cards (Green vs. Stokes' theorem) |
-| [speed-run](https://github.com/wenje-ma/speed-run) | 「一命速通」— a minimal cover image |
 
 ## 🛠 Tech Stack
 
