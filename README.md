@@ -29,7 +29,7 @@
 
 ### [singapore](https://github.com/wenje-ma/singapore) — Multi-Fidelity Bayesian Optimization `Research Project`
 
-*Bayesian Optimization Based on Multi-Fidelity Data* (advisor: Dianpeng Wang, BIT, 2024). An ablatable R pipeline — MaxPro design → sequential design → nested (multi-fidelity) design → expected improvement — optimizing expensive black boxes under a **15-evaluation high-fidelity-equivalent budget**, with KOH fusion and M0/S1/S2 ablation controls. Key finding: **fusion is the decisive component**; screening never helped; a few fused high-fidelity points beat many unfused ones.
+*Bayesian Optimization Based on Multi-Fidelity Data* (advisor: [Dianpeng Wang](https://github.com/wdp708), BIT, 2024). An ablatable R pipeline — MaxPro design → sequential design → nested (multi-fidelity) design → expected improvement — optimizing expensive black boxes under a **15-evaluation high-fidelity-equivalent budget**, with KOH fusion and M0/S1/S2 ablation controls. Key finding: **fusion is the decisive component**; screening never helped; a few fused high-fidelity points beat many unfused ones.
 
 ### [ed4dse](https://github.com/wenje-ma/ed4dse) — *Experimental Design for Data Science and Engineering* `Completed ✅`
 
