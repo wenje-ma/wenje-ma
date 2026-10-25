@@ -14,11 +14,11 @@ My research objective is to extract the maximum information from a minimum numbe
 - Feasible-region boundary and level-set learning under expensive constraints
 - Gaussian process regression, EBLUP, and conjugate Bayesian inference
 
-<div align="center">
+< div align="center"> 
 
 ![](https://img.shields.io/badge/Design_of_Experiments-006E4C?style=flat-square) ![](https://img.shields.io/badge/Space_filling_Designs-00875F?style=flat-square) ![](https://img.shields.io/badge/Bayesian_Optimization-00A86B?style=flat-square) ![](https://img.shields.io/badge/Multi_fidelity_Optimization-00C896?style=flat-square) ![](https://img.shields.io/badge/Constrained_Black_box-00E5A0?style=flat-square)
 
-</div>
+< /div> 
 
 ---
 
@@ -87,14 +87,14 @@ Every week of China's People's Education Press mathematics curriculum, formalize
 
 ## Tech Stack
 
-<div align="center">
+< div align="center"> 
 
 ![](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white) ![](https://img.shields.io/badge/Rcpp-00427D?style=flat-square&logo=cplusplus&logoColor=white) ![](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![](https://img.shields.io/badge/Tkinter-FFD43B?style=flat-square&logo=python&logoColor=black) ![](https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white) ![](https://img.shields.io/badge/Quarto-39729E?style=flat-square&logo=quarto&logoColor=white) ![](https://img.shields.io/badge/R_Markdown-75AADB?style=flat-square&logo=rstudioide&logoColor=white) ![](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white) ![](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white)
 
-</div>
+< /div> 
 
 **R** is my research language — designs, GP/KOH surrogates, BO pipelines, with Rcpp C++ where performance matters. **Python** handles scripting and tooling. **LaTeX/Beamer/Markdown** carries the notes and decks.
 
 ---
 
-<p align="center"><sub>© 2026 Wenje Ma</sub></p>
+< p align="center"> < sub> © 2026 Wenje Ma< /sub> < /p> 
