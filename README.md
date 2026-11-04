@@ -20,8 +20,6 @@ My research objective is to extract the maximum information from a minimum numbe
 
 < /div> 
 
----
-
 ## Featured Projects
 
 ### [singapore](https://github.com/wenje-ma/singapore) — Multi-Fidelity Bayesian Optimization `Research Project`
@@ -35,8 +33,6 @@ A complete computational reproduction of **V. Roshan Joseph's** textbook (Chapma
 ### [dace](https://github.com/wenje-ma/dace) — The Design and Analysis of Computer Experiments `Core Reading`
 
 Close-reading notes with full derivations for **Santner–Williams–Notz** (Springer, 2nd ed.): GP models (§2.2), BLUP/EBLUP (§3.2–3.3), and expected improvement (§6.3.4) — the theory my thesis builds on.
-
----
 
 ## All Public Repositories
 
@@ -83,8 +79,6 @@ Every week of China's People's Education Press mathematics curriculum, formalize
 | [wenjemaths](https://github.com/wenje-ma/wenjemaths) | Math tutorials & walkthroughs (work in progress) |
 | [metropolis](https://github.com/wenje-ma/metropolis) | Customized fork of the Metropolis Beamer theme — Quarto demo + CJK support |
 
----
-
 ## Tech Stack
 
 < div align="center"> 
@@ -94,7 +88,5 @@ Every week of China's People's Education Press mathematics curriculum, formalize
 < /div> 
 
 **R** is my research language — designs, GP/KOH surrogates, BO pipelines, with Rcpp C++ where performance matters. **Python** handles scripting and tooling. **LaTeX/Beamer/Markdown** carries the notes and decks.
-
----
 
 < p align="center"> < sub> © 2026 Wenje Ma< /sub> < /p> 
