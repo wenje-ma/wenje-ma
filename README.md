@@ -89,4 +89,4 @@ Every week of China's People's Education Press mathematics curriculum, formalize
 
 **R** is my research language — designs, GP/KOH surrogates, BO pipelines, with Rcpp C++ where performance matters. **Python** handles scripting and tooling. **LaTeX/Beamer/Markdown** carries the notes and decks.
 
-< p align="center"> < sub> © 2026 Wenje Ma< /sub> < /p> 
+<p align="center"><sub>© 2026 Wenje Ma</sub></p>
