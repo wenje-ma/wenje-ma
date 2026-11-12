@@ -1,5 +1,7 @@
 # Wenje Ma
 
+![](https://img.shields.io/badge/INFJ-555555?style=flat-square)
+
 <table>
 <tr>
 <td valign="top" width="62%">
