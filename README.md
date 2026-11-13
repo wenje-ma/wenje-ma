@@ -4,14 +4,14 @@
 
 <table>
 <tr>
-<td valign="top" width="62%">
+<td valign="top" width="62%" style="border:none">
 
 Undergraduate at **Beijing Institute of Technology (BIT)**, School of Mathematics and Statistics & Teli Academy — **Mathematics and Applied Mathematics, Qiang-Ji (Strong Foundation) Program**.
 
 My research objective is to extract the maximum information from a minimum number of experiments, at the intersection of statistics and computation.
 
 </td>
-<td width="38%" align="center">
+<td width="38%" align="center" style="border:none">
 <img src="wenje-ma.png" width="260" alt="Wenje Ma">
 </td>
 </tr>
